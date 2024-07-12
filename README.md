@@ -219,7 +219,9 @@ What are the less expensive municipalities in Flanders? (Average price, median p
 2.**Average construction year per zip code**
    Here is a quick introduction to our work: A map of all belgian's municipalities with their average construction year. 
   <img src="https://github.com/ziadoonAlobaidi/immoMeZgZd/blob/main/Untitled.png">
-
+3.**Average price by construction year**
+   <img src="https://github.com/ziadoonAlobaidi/immoMeZgZd/blob/main/22.png">
+   
 . **Missing Values Heatmap:**
 
 . **Before and After Imputation Distribution:**
