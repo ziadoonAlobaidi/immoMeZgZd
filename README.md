@@ -22,7 +22,6 @@ Ziadoon <img src="https://raw.githubusercontent.com/Joffreybvn/challenge-collect
 Here is a quick introduction to our work: A map of all belgian's municipalities with their median price/m2. **Click to enlarge**
 
 <img src="https://github.com/ziadoonAlobaidi/immoMeZgZd/blob/main/Untitled.png">
-[https://github.com/ziadoonAlobaidi/immoMeZgZd/blob/main/Untitled.png](https://github.com/ziadoonAlobaidi/immoMeZgZd/blob/main/Untitled.png)
 
 ## Challenge's summary
 **The mission is**: Cleaning and doing a complete analysis and interpretation of the dataset created during the previous challenge. In order to create a machine learning model to predict prices on Belgium's real estate's sales.
