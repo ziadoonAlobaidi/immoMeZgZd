@@ -17,10 +17,11 @@ Using pandas and data visualisation libraries (Matplotlib, Seaborn), let's estab
 
 ### Team member:  
 
+<img width="50%" src="img/e.png"/>
 
-Ezgi <img src="https://raw.githubusercontent.com/Joffreybvn/challenge-collecting-data/master/docs/arrow.svg" width="12"> https://github.com/ezgitandogan <img src="img/e.png"/> <br/>
-Mehmet <img src="https://raw.githubusercontent.com/Joffreybvn/challenge-collecting-data/master/docs/arrow.svg" width="12"> https://github.com/mehmetbatar35 <img src="img/m.png"/> <br/>
-Ziadoon <img src="https://raw.githubusercontent.com/Joffreybvn/challenge-collecting-data/master/docs/arrow.svg" width="12"> https://github.com/ziadoonAlobaidi/ <img src="img/z.png"/>
+Ezgi <img src="https://raw.githubusercontent.com/Joffreybvn/challenge-collecting-data/master/docs/arrow.svg" width="12"> https://github.com/ezgitandogan  <br/>
+Mehmet <img src="https://raw.githubusercontent.com/Joffreybvn/challenge-collecting-data/master/docs/arrow.svg" width="12"> https://github.com/mehmetbatar35  <br/>
+Ziadoon <img src="https://raw.githubusercontent.com/Joffreybvn/challenge-collecting-data/master/docs/arrow.svg" width="12"> https://github.com/ziadoonAlobaidi/ 
 
 ## Timeline
 
