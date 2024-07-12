@@ -48,7 +48,8 @@ How many qualitative and quantitative variables are there? How would you transfo
 Percentage of missing values per column?
 Which variables would you delete and why ?
 Represent the number of properties according to their surface using a histogram.
-In your opinion, which 5 variables are the most important and why?
+### In your opinion, which 5 variables are the most important and why?
+   ( the price - the bedroom count - the living area - locality - 
 What are the most expensive municipalities in Belgium? (Average price, median price, price per square meter)
 What are the most expensive municipalities in Wallonia? (Average price, median price, price per square meter)
 What are the most expensive municipalities in Flanders? (Average price, median price, price per square meter)
