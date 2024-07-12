@@ -7,9 +7,9 @@ Using pandas and data visualisation libraries (Matplotlib, Seaborn), let's estab
 <tbody>
 <tr>
 <td style="border: 1px solid #ffffff00" width="90%">
-Kai Yung (Adam) <img src="https://raw.githubusercontent.com/Joffreybvn/challenge-collecting-data/master/docs/arrow.svg" width="12"> https://github.com/kaiyungtan<br>
-Joffrey Bienvenu <img src="https://raw.githubusercontent.com/Joffreybvn/challenge-collecting-data/master/docs/arrow.svg" width="12"> https://github.com/Joffreybvn<br>
-Mathieu Leers <img src="https://raw.githubusercontent.com/Joffreybvn/challenge-collecting-data/master/docs/arrow.svg" width="12"> https://github.com/leersmathieu
+Ezgi <img src="https://raw.githubusercontent.com/Joffreybvn/challenge-collecting-data/master/docs/arrow.svg" width="12"> https://github.com/ezgitandogan
+Mehmet <img src="https://raw.githubusercontent.com/Joffreybvn/challenge-collecting-data/master/docs/arrow.svg" width="12"> https://github.com/mehmetbatar35<br>
+Ziadoon <img src="https://raw.githubusercontent.com/Joffreybvn/challenge-collecting-data/master/docs/arrow.svg" width="12"> https://github.com/ziadoonAlobaidi/
 </td>
 <td>
 <img src="https://github.com/kaiyungtan/challenge-data-analysis/blob/master/Visualisation/Immoweb%20house%20logo.png?raw=true">
