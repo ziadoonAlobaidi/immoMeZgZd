@@ -20,6 +20,8 @@ Ziadoon <img src="https://raw.githubusercontent.com/Joffreybvn/challenge-collect
 
 ### Price/m2 Map:
 Here is a quick introduction to our work: A map of all belgian's municipalities with their median price/m2. **Click to enlarge**
+
+[](https://github.com/ziadoonAlobaidi/immoMeZgZd/blob/main/average_construction_year_map.html)
 [![https://kaiyungtan.github.io/challenge-data-analysis/Visualisation/map_pricem2.png](https://github.com/kaiyungtan/challenge-data-analysis/raw/master/Visualisation/map_pricem2.png)](https://kaiyungtan.github.io/challenge-data-analysis/Visualisation/map_pricem2.html)
 
 ## Challenge's summary
