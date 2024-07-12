@@ -17,7 +17,7 @@ Using pandas and data visualisation libraries (Matplotlib, Seaborn), let's estab
 
 ### Team member:  
 
-<img width="50%" src="img/e.png"/>
+<img width="50%" src="img/all.png"/>
 
 Ezgi <img src="https://raw.githubusercontent.com/Joffreybvn/challenge-collecting-data/master/docs/arrow.svg" width="12"> https://github.com/ezgitandogan  <br/>
 Mehmet <img src="https://raw.githubusercontent.com/Joffreybvn/challenge-collecting-data/master/docs/arrow.svg" width="12"> https://github.com/mehmetbatar35  <br/>
