@@ -1,4 +1,4 @@
-# Challenge: Data Analysis
+# Week3 : Make beautful visualisation
 Using pandas and data visualisation libraries (Matplotlib, Seaborn), let's establish conclusions about a dataset.
 
 ### Team member:  
