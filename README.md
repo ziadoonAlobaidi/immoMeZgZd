@@ -221,8 +221,11 @@ What are the less expensive municipalities in Flanders? (Average price, median p
 
 - Here are some example visualizations that can help in understanding the dataset and the effects of imputation and outlier removal:
 
-1. **Missing Values Heatmap:**
+1. **Average price by state**
+   <img src="https://github.com/ziadoonAlobaidi/immoMeZgZd/blob/main/image.png">
 
-2. **Before and After Imputation Distribution:**
+. **Missing Values Heatmap:**
+
+. **Before and After Imputation Distribution:**
 
 
