@@ -77,7 +77,7 @@ What are the less expensive municipalities in Flanders? (Average price, median p
 2. **Navigate to the Project Directory:**
 
    ```bash
-   cd real-estate-dataset-cleaning
+   cd ImmoEliza_EDA
    ```
 
 3. **Install Required Libraries:**
