@@ -169,14 +169,15 @@ Ziadoon <img src="https://raw.githubusercontent.com/Joffreybvn/challenge-collect
 ## Visuals
 
 - Here are some example visualizations that can help in understanding the dataset and the effects of imputation and outlier removal:
-1.**Heatmap showing the correlation between all data**
+1.**Number of houses per Area**
+  <img src="https://github.com/ziadoonAlobaidi/immoMeZgZd/blob/main/HeatmapNofHouses.png"/>
+2.**Heatmap showing the correlation between all data**
   <img src="https://github.com/ziadoonAlobaidi/immoMeZgZd/blob/main/heatmap_corr.png"/>
-2.**Average price by state**
+3.**Average price by state**
    <img src="https://github.com/ziadoonAlobaidi/immoMeZgZd/blob/main/image.png"/>
-3.**Average construction year per zip code**
+4.**Average construction year per zip code**
    Here is a quick introduction to our work: A map of all belgian's municipalities with their average construction year. 
   <img src="https://github.com/ziadoonAlobaidi/immoMeZgZd/blob/main/Untitled.png">
-4.**Average price by construction year**
+5.**Average price by construction year**
    <img src="https://github.com/ziadoonAlobaidi/immoMeZgZd/blob/main/22.png">
-   
 
