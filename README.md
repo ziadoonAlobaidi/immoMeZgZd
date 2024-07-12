@@ -153,8 +153,8 @@ Ziadoon <img src="https://raw.githubusercontent.com/Joffreybvn/challenge-collect
   - **Calculate Outlier Bounds for `price`:**
 
     ```python
-    Q1 = df_sales['price'].quantile(0.25)
-    Q3 = df_sales['price'].quantile(0.75)
+    Q1 = df_sales['price'].quantile(0.15)
+    Q3 = df_sales['price'].quantile(0.9)
     IQR = Q3 - Q1
     lower_bound = Q1 - 1.5 * IQR
     upper_bound = Q3 + 1.5 * IQR
@@ -166,11 +166,6 @@ Ziadoon <img src="https://raw.githubusercontent.com/Joffreybvn/challenge-collect
     df_sales = df_sales[(df_sales['price'] > lower_bound) & (df_sales['price'] < upper_bound)]
     ```
 
-  - **Save the Cleaned Dataset:**
-
-    ```python
-    df_sales.to_csv('cleaned_dataset.csv', index=False)
-    ```
 5. **Correlation**
    To find the most correlated column with the price  : 
    ```python
