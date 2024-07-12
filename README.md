@@ -42,8 +42,6 @@ Ziadoon <img src="https://raw.githubusercontent.com/Joffreybvn/challenge-collect
 
 ### Objectives:
 <pre>
-How many rows and columns?
-What is the correlation between the variables and the price? (Why might that be?)
 How are variables correlated to each other? (Why?)
 Which variables have the greatest influence on the price?
 Which variables have the least influence on the price?
@@ -213,7 +211,7 @@ What are the less expensive municipalities in Flanders? (Average price, median p
 ## Visuals
 
 - Here are some example visualizations that can help in understanding the dataset and the effects of imputation and outlier removal:
-
+1.**Heatmap showing the correlation between all data**
 1. **Average price by state**
    <img src="https://github.com/ziadoonAlobaidi/immoMeZgZd/blob/main/image.png">
 2.**Average construction year per zip code**
