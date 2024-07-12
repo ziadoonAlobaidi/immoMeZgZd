@@ -71,7 +71,7 @@ What are the less expensive municipalities in Flanders? (Average price, median p
 1. **Clone the Repository:**
 
    ```bash
-   git clone https://github.com/yourusername/real-estate-dataset-cleaning.git
+   git clone https://github.com/mehmetbatar35/ImmoEliza_EDA.git
    ```
 
 2. **Navigate to the Project Directory:**
@@ -84,23 +84,8 @@ What are the less expensive municipalities in Flanders? (Average price, median p
 
    \*Install Required Libraries:\*\*
 
-   It is recommended to use a virtual environment. Install the required libraries using pip:
+   It is recommended to use a virtual environment. Install the required libraries 
 
-   - `pandas`: Data manipulation and analysis
-
-   - `numpy`: Numerical operations
-
-   - `scikit-learn`: Machine learning and data preprocessing
-
-   - `matplotlib`: Plotting and visualization
-
-   - `seaborn`: Statistical data visualization
-
-   - `geopandas`: Geographic data handling
-
-   - `geopandas-geodatasets`: Geo-datasets for geographical data
-
-   - `geoplot`: Geospatial plotting
 
 ## Usage
 
