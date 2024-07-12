@@ -12,8 +12,7 @@ Mehmet <img src="https://raw.githubusercontent.com/Joffreybvn/challenge-collecti
 Ziadoon <img src="https://raw.githubusercontent.com/Joffreybvn/challenge-collecting-data/master/docs/arrow.svg" width="12"> https://github.com/ziadoonAlobaidi/
 </td>
 <td>
-<img src="https://github.com/ziadoonAlobaidi/immoMeZgZd/blob/main/Untitled.png">
- [https://github.com/ziadoonAlobaidi/immoMeZgZd/blob/main/Untitled.png](https://github.com/ziadoonAlobaidi/immoMeZgZd/blob/main/Untitled.png)
+
 </td>
 </tr>
 </tbody>
@@ -22,8 +21,8 @@ Ziadoon <img src="https://raw.githubusercontent.com/Joffreybvn/challenge-collect
 ### Price/m2 Map:
 Here is a quick introduction to our work: A map of all belgian's municipalities with their median price/m2. **Click to enlarge**
 
-[https://github.com/ziadoonAlobaidi/immoMeZgZd/blob/main/average_construction_year_map.html](https://github.com/ziadoonAlobaidi/immoMeZgZd/blob/main/average_construction_year_map.html)
-
+<img src="https://github.com/ziadoonAlobaidi/immoMeZgZd/blob/main/Untitled.png">
+[https://github.com/ziadoonAlobaidi/immoMeZgZd/blob/main/Untitled.png](https://github.com/ziadoonAlobaidi/immoMeZgZd/blob/main/Untitled.png)
 
 ## Challenge's summary
 **The mission is**: Cleaning and doing a complete analysis and interpretation of the dataset created during the previous challenge. In order to create a machine learning model to predict prices on Belgium's real estate's sales.
