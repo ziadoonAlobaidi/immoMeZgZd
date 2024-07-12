@@ -23,13 +23,27 @@ Here is a quick introduction to our work: A map of all belgian's municipalities 
 
 <img src="https://github.com/ziadoonAlobaidi/immoMeZgZd/blob/main/Untitled.png">
 
-## Challenge's summary
-**The mission is**: Cleaning and doing a complete analysis and interpretation of the dataset created during the previous challenge. In order to create a machine learning model to predict prices on Belgium's real estate's sales.
+## This week's summary
+
+**The week is**: Cleaning and doing a complete charts contains interesting information  
 
 ### Objectives:
- - [x] Using Pandas for data manipulation.
- - [x] Using MatplotLib and/or Seaborn for plotting.
- - [x] Finding and understanding correlations between dataset's variables.
+How many rows and columns?
+What is the correlation between the variables and the price? (Why might that be?)
+How are variables correlated to each other? (Why?)
+Which variables have the greatest influence on the price?
+Which variables have the least influence on the price?
+How many qualitative and quantitative variables are there? How would you transform these values into numerical values?
+Percentage of missing values per column?
+Which variables would you delete and why ?
+Represent the number of properties according to their surface using a histogram.
+In your opinion, which 5 variables are the most important and why?
+What are the most expensive municipalities in Belgium? (Average price, median price, price per square meter)
+What are the most expensive municipalities in Wallonia? (Average price, median price, price per square meter)
+What are the most expensive municipalities in Flanders? (Average price, median price, price per square meter)
+What are the less expensive municipalities in Belgium? (Average price, median price, price per square meter)
+What are the less expensive municipalities in Wallonia? (Average price, median price, price per square meter)
+What are the less expensive municipalities in Flanders? (Average price, median price, price per square meter)
 
 ## The dataset: a 50.000 entries' one !
 
