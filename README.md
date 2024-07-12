@@ -40,23 +40,7 @@ Ziadoon <img src="https://raw.githubusercontent.com/Joffreybvn/challenge-collect
 - **Day 5:** Data Visualization and Analysis
 
 ### Objectives:
-<pre>
-How are variables correlated to each other? (Why?)
-Which variables have the greatest influence on the price?
-Which variables have the least influence on the price?
-How many qualitative and quantitative variables are there? How would you transform these values into numerical values?
-Percentage of missing values per column?
-Which variables would you delete and why ?
-Represent the number of properties according to their surface using a histogram.
-### In your opinion, which 5 variables are the most important and why?
-   ( the price - the bedroom count - the living area - locality - 
-What are the most expensive municipalities in Belgium? (Average price, median price, price per square meter)
-What are the most expensive municipalities in Wallonia? (Average price, median price, price per square meter)
-What are the most expensive municipalities in Flanders? (Average price, median price, price per square meter)
-What are the less expensive municipalities in Belgium? (Average price, median price, price per square meter)
-What are the less expensive municipalities in Wallonia? (Average price, median price, price per square meter)
-What are the less expensive municipalities in Flanders? (Average price, median price, price per square meter)
-</pre>
+
 
 
 ## File Information
@@ -82,43 +66,38 @@ What are the less expensive municipalities in Flanders? (Average price, median p
 
 3. **Install Required Libraries:**
 
-   \*Install Required Libraries:\*\*
-
    It is recommended to use a virtual environment. Install the required libraries 
 
 
 ## Usage
-
-1. **Load the Dataset:**
-
-   Ensure you have the dataset file (`final_dataset.csv`) in the project directory.
-
+### Cleaning dataset
+   > **Import the necessary libraries**
+   
    ```python
    import pandas as pd
-
-   # Load the dataset
-   df = pd.read_csv('final_dataset.csv')
+   import numpy as np
+   import matplotlib.pyplot as plt
+   %matplotlib inline
+   import seaborn as sns
    ```
 
-2. **Data Cleaning:**
-
-   - **Remove Duplicates:**
-
-     ```python
-     df = df.drop_duplicates()
-     ```
-
-   - **Convert Categorical Variables:**
-
-     ```python
-     df['stateofbuilding'] = df['stateofbuilding'].astype('category').cat.codes
-     df['kitchen'] = df['kitchen'].astype('category').cat.codes
-     df['floodingzone'] = df['floodingzone'].astype('category').cat.codes
-     df['subtypeofproperty'] = df['subtypeofproperty'].astype('category').cat.codes
-     df['typeofsale'] = df['typeofsale'].astype('category').cat.codes
-     ```
-
-3. **KNN Imputation:**
+   > **load the dataset**
+   Ensure you have the dataset file (`final_dataset.csv`) in the project directory.
+   ```python
+   df = pd.read_csv('cleaned_dataset.csv')
+   #Transform column names to lowerCase to avoid name missmatching
+   df.columns = df.columns.str.lower()
+   ```
+   > **Drop columns**
+   ```python
+   df.drop('url', axis = 1, inplace = True)
+   df.drop('gardenarea', axis = 1, inplace = True)
+   ```
+   > **Fill null values with mean**
+   ```python
+   df['bathroomcount'].fillna(mean_value, inplace = True)
+   ```
+4. **KNN Imputation:**
 
    ```python
    from sklearn.impute import KNNImputer
@@ -127,7 +106,7 @@ What are the less expensive municipalities in Flanders? (Average price, median p
    columns_for_imputation = ['roomcount', 'surfaceofplot', 'stateofbuilding', 'numberoffacades', 'livingarea', 'bedroomcount', 'bathroomcount', 'constructionyear', 'price', 'kitchen']
 
    # Select only the columns to impute
-   df_impute = df[columns_to_impute].copy()
+   df_impute = df[columns_to_impute].copy()6
 
    # Convert categorical columns to numerical if necessary
    df_impute['stateofbuilding'] = df_impute['stateofbuilding'].astype('category').cat.codes
@@ -160,7 +139,7 @@ What are the less expensive municipalities in Flanders? (Average price, median p
     df['livingarea'] = df_imputed['livingarea'].values
    ```
 
-4. **Outlier Detection and Handling:**
+5. **Outlier Detection and Handling:**
 
 - Outliers can significantly skew analysis and models. The following steps demonstrate how to detect and handle outliers, focusing on the `price` column for `residential_sale` properties.
 
@@ -192,7 +171,15 @@ What are the less expensive municipalities in Flanders? (Average price, median p
     ```python
     df_sales.to_csv('cleaned_dataset.csv', index=False)
     ```
-
+5. **Correlation**
+   To find the most correlated column with the price  : 
+   ```python
+   correlation = df.select_dtypes(include = ['float64', 'int64', 'int32']).corr()
+   
+   price_correlation  = correlation.price.drop('price')
+   
+   most_correlated_column = price_correlation.idxmax()
+   ```
 ## Visuals
 
 - Here are some example visualizations that can help in understanding the dataset and the effects of imputation and outlier removal:
