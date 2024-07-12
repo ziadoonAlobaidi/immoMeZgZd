@@ -40,13 +40,6 @@ Ziadoon <img src="https://raw.githubusercontent.com/Joffreybvn/challenge-collect
 - **Day 4:** Outlier detection and handling
 - **Day 5:** Data Visualization and Analysis
 
-
-### Average construction Map:
-Here is a quick introduction to our work: A map of all belgian's municipalities with their median price/m2. **Click to enlarge**
-
-<img src="https://github.com/ziadoonAlobaidi/immoMeZgZd/blob/main/Untitled.png">
-
-
 ### Objectives:
 <pre>
 How many rows and columns?
@@ -223,6 +216,9 @@ What are the less expensive municipalities in Flanders? (Average price, median p
 
 1. **Average price by state**
    <img src="https://github.com/ziadoonAlobaidi/immoMeZgZd/blob/main/image.png">
+2.**Average construction year per zip code**
+   Here is a quick introduction to our work: A map of all belgian's municipalities with their average construction year. 
+  <img src="https://github.com/ziadoonAlobaidi/immoMeZgZd/blob/main/Untitled.png">
 
 . **Missing Values Heatmap:**
 
