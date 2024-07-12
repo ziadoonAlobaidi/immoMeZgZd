@@ -1,5 +1,20 @@
+# ImmoEliza Dataset Analysis
+
 # Week3 : Make beautful visualisation
 Using pandas and data visualisation libraries (Matplotlib, Seaborn), let's establish conclusions about a dataset.
+
+## This week's summary
+
+**The week is**: Cleaning and doing a complete charts contains interesting information  
+
+## Description
+
+- This project focuses on cleaning and preparing a real estate dataset for analysis by addressing missing values and detecting outliers.
+
+- The dataset contains various property attributes such as construction year, room count, and more.
+
+- To ensure the data's accuracy and reliability for subsequent analysis, we use K-Nearest Neighbors (KNN) imputation to fill missing values and apply statistical methods to identify and handle outliers.
+
 
 ### Team member:  
 
@@ -18,16 +33,22 @@ Ziadoon <img src="https://raw.githubusercontent.com/Joffreybvn/challenge-collect
 </tbody>
 </table>
 
-### Price/m2 Map:
+## Timeline
+
+- **Day 1:** Data exploration and initial cleaning
+- **Day 2-3:** Implement KNN imputation for missing values
+- **Day 4:** Outlier detection and handling
+- **Day 5:** Data Visualization and Analysis
+
+
+### Average construction Map:
 Here is a quick introduction to our work: A map of all belgian's municipalities with their median price/m2. **Click to enlarge**
 
 <img src="https://github.com/ziadoonAlobaidi/immoMeZgZd/blob/main/Untitled.png">
 
-## This week's summary
-
-**The week is**: Cleaning and doing a complete charts contains interesting information  
 
 ### Objectives:
+<pre>
 How many rows and columns?
 What is the correlation between the variables and the price? (Why might that be?)
 How are variables correlated to each other? (Why?)
@@ -44,17 +65,8 @@ What are the most expensive municipalities in Flanders? (Average price, median p
 What are the less expensive municipalities in Belgium? (Average price, median price, price per square meter)
 What are the less expensive municipalities in Wallonia? (Average price, median price, price per square meter)
 What are the less expensive municipalities in Flanders? (Average price, median price, price per square meter)
+</pre>
 
-
-# ImmoEliza Dataset Analysis
-
-## Description
-
-- This project focuses on cleaning and preparing a real estate dataset for analysis by addressing missing values and detecting outliers.
-
-- The dataset contains various property attributes such as construction year, room count, and more.
-
-- To ensure the data's accuracy and reliability for subsequent analysis, we use K-Nearest Neighbors (KNN) imputation to fill missing values and apply statistical methods to identify and handle outliers.
 
 ## File Information
 
@@ -213,15 +225,4 @@ What are the less expensive municipalities in Flanders? (Average price, median p
 
 2. **Before and After Imputation Distribution:**
 
-## Contributors
 
-- Mehmet
-- Zaidoon
-- Ezgi
-
-## Timeline
-
-- **Day 1:** Data exploration and initial cleaning
-- **Day 2-3:** Implement KNN imputation for missing values
-- **Day 4:** Outlier detection and handling
-- **Day 5:** Data Visualization and Analysis
